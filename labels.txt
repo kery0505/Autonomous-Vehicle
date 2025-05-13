@@ -1,0 +1,11 @@
+0 down_arrow
+1 up_arrow
+2 left_arrow
+3 right_arrow
+4 Triangle
+5 pacman
+6 hexagon
+7 pentagon
+8 rectangle
+9 circle
+10 noise
