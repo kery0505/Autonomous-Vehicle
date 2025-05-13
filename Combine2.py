@@ -117,7 +117,7 @@ def pid_controller(error):
 
 # Initialize Camera
 camera = Picamera2()
-camera_config = camera.create_preview_configuration(main={"format": "RGB888", "size": (640, 480)})
+camera_config = camera.create_preview_configuration(main={"format": "RGB888", "size": (320, 240)})
 camera.configure(camera_config)
 camera.start()
 time.sleep(1)  # Allow camera to warm up
